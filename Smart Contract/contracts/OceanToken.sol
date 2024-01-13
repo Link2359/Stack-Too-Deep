@@ -49,7 +49,7 @@ contract OceanToken is ERC20, ERC20Burnable {
         for (uint256 i = 0; i < investors.length; i++) {
             allInvestors[i] = investors[i];
         }
-
+ 
         return allInvestors;
     }
 
